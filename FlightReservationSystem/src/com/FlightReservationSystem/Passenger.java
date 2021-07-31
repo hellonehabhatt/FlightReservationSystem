@@ -1,9 +1,9 @@
 package com.FlightReservationSystem;
 
 public class Passenger {
-    int id;
-    Address address;
-    Contact contact;
+    private int id;
+    private Address address;
+    private Contact contact;
     public Passenger(int id,Address address,Contact contact)
     {
         this.id=id;

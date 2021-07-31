@@ -1,9 +1,9 @@
 package com.FlightReservationSystem;
 
 public class Contact {
-    String name;
-    int phoneNo;
-    String emailId;
+    private String name;
+    private int phoneNo;
+    private String emailId;
     public Contact(String name,int phoneNo,String emailId)
     {
         this.name=name;
@@ -12,7 +12,7 @@ public class Contact {
     }
     public String getContactDetails()
     {
-        return name+"\n"+phoneNo+"\n"+emailId;
+        return "Contact Details\nName : "+name+"\nPhone No : "+phoneNo+"\nEmailId : "+emailId;
     }
     public void setContactDetails(String name,int phoneNo,String emailId)
     {

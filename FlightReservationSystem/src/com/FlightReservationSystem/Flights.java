@@ -1,9 +1,9 @@
 package com.FlightReservationSystem;
 
 public class Flights {
-    String flightName;
-    int capacity;
-    int bookedSeats;
+    private String flightName;
+    private int capacity;
+    private int bookedSeats;
     public Flights(String flightName,int capacity,int bookedSeats)
     {
         this.flightName=flightName;
@@ -12,7 +12,7 @@ public class Flights {
     }
     public String getFlightDetails()
     {
-        return flightName+"\n"+capacity+"\n"+bookedSeats;
+        return "Flight Details\n"+"Flight Name : "+flightName+"\nCapacity : "+capacity+"\nBooked Seats"+bookedSeats;
     }
     public boolean checkAvailablity()
     {

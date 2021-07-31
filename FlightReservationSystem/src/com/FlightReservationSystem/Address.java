@@ -1,9 +1,9 @@
 package com.FlightReservationSystem;
 
 public class Address {
-    String street;
-    String city;
-    String state;
+    private String street;
+    private String city;
+    private String state;
     public Address(String street,String city,String state)
     {
         this.street=street;
@@ -12,7 +12,7 @@ public class Address {
     }
     public String getAddressDetails()
     {
-        return street+"\n"+city+"\n"+state;
+        return "Address Details : \n"+"Street : "+street+"\nCity : "+city+"\nState : "+state;
     }
     public void setAddressDetails(String street,String city,String state)
     {
